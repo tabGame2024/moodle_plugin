@@ -1,0 +1,2046 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "core/*": [
+        "lib/amd/src/*"
+      ],
+      "core_admin/*": [
+        "admin/amd/src/*"
+      ],
+      "core_adminpresets/*": [
+        "admin/presets/amd/src/*"
+      ],
+      "core_analytics/*": [
+        "analytics/amd/src/*"
+      ],
+      "core_antivirus/*": [
+        "lib/antivirus/amd/src/*"
+      ],
+      "core_auth/*": [
+        "auth/amd/src/*"
+      ],
+      "core_availability/*": [
+        "availability/amd/src/*"
+      ],
+      "core_backup/*": [
+        "backup/util/ui/amd/src/*"
+      ],
+      "core_badges/*": [
+        "badges/amd/src/*"
+      ],
+      "core_block/*": [
+        "blocks/amd/src/*"
+      ],
+      "core_blog/*": [
+        "blog/amd/src/*"
+      ],
+      "core_cache/*": [
+        "cache/amd/src/*"
+      ],
+      "core_calendar/*": [
+        "calendar/amd/src/*"
+      ],
+      "core_cohort/*": [
+        "cohort/amd/src/*"
+      ],
+      "core_comment/*": [
+        "comment/amd/src/*"
+      ],
+      "core_communication/*": [
+        "communication/amd/src/*"
+      ],
+      "core_competency/*": [
+        "competency/amd/src/*"
+      ],
+      "core_completion/*": [
+        "completion/amd/src/*"
+      ],
+      "core_contentbank/*": [
+        "contentbank/amd/src/*"
+      ],
+      "core_course/*": [
+        "course/amd/src/*"
+      ],
+      "core_courseformat/*": [
+        "course/format/amd/src/*"
+      ],
+      "core_customfield/*": [
+        "customfield/amd/src/*"
+      ],
+      "core_editor/*": [
+        "lib/editor/amd/src/*"
+      ],
+      "core_enrol/*": [
+        "enrol/amd/src/*"
+      ],
+      "core_external/*": [
+        "lib/external/amd/src/*"
+      ],
+      "core_favourites/*": [
+        "favourites/amd/src/*"
+      ],
+      "core_fileconverter/*": [
+        "files/converter/amd/src/*"
+      ],
+      "core_files/*": [
+        "files/amd/src/*"
+      ],
+      "core_filters/*": [
+        "filter/amd/src/*"
+      ],
+      "core_form/*": [
+        "lib/form/amd/src/*"
+      ],
+      "core_grades/*": [
+        "grade/amd/src/*"
+      ],
+      "core_grading/*": [
+        "grade/grading/amd/src/*"
+      ],
+      "core_group/*": [
+        "group/amd/src/*"
+      ],
+      "core_h5p/*": [
+        "h5p/amd/src/*"
+      ],
+      "core_media/*": [
+        "media/amd/src/*"
+      ],
+      "core_message/*": [
+        "message/amd/src/*"
+      ],
+      "core_mnet/*": [
+        "mnet/amd/src/*"
+      ],
+      "core_my/*": [
+        "my/amd/src/*"
+      ],
+      "core_notes/*": [
+        "notes/amd/src/*"
+      ],
+      "core_payment/*": [
+        "payment/amd/src/*"
+      ],
+      "core_plagiarism/*": [
+        "plagiarism/amd/src/*"
+      ],
+      "core_portfolio/*": [
+        "portfolio/amd/src/*"
+      ],
+      "core_privacy/*": [
+        "privacy/amd/src/*"
+      ],
+      "core_question/*": [
+        "question/amd/src/*"
+      ],
+      "core_rating/*": [
+        "rating/amd/src/*"
+      ],
+      "core_reportbuilder/*": [
+        "reportbuilder/amd/src/*"
+      ],
+      "core_repository/*": [
+        "repository/amd/src/*"
+      ],
+      "core_rss/*": [
+        "rss/amd/src/*"
+      ],
+      "core_role/*": [
+        "admin/roles/amd/src/*"
+      ],
+      "core_search/*": [
+        "search/amd/src/*"
+      ],
+      "core_table/*": [
+        "lib/table/amd/src/*"
+      ],
+      "core_tag/*": [
+        "tag/amd/src/*"
+      ],
+      "core_user/*": [
+        "user/amd/src/*"
+      ],
+      "core_userkey/*": [
+        "lib/userkey/amd/src/*"
+      ],
+      "core_webservice/*": [
+        "webservice/amd/src/*"
+      ],
+      "core_xapi/*": [
+        "lib/xapi/amd/src/*"
+      ],
+      "antivirus_clamav/*": [
+        "lib/antivirus/clamav/amd/src/*"
+      ],
+      "availability_profile/*": [
+        "availability/condition/profile/amd/src/*"
+      ],
+      "availability_grouping/*": [
+        "availability/condition/grouping/amd/src/*"
+      ],
+      "availability_group/*": [
+        "availability/condition/group/amd/src/*"
+      ],
+      "availability_grade/*": [
+        "availability/condition/grade/amd/src/*"
+      ],
+      "availability_date/*": [
+        "availability/condition/date/amd/src/*"
+      ],
+      "availability_completion/*": [
+        "availability/condition/completion/amd/src/*"
+      ],
+      "qtype_truefalse/*": [
+        "question/type/truefalse/amd/src/*"
+      ],
+      "qtype_shortanswer/*": [
+        "question/type/shortanswer/amd/src/*"
+      ],
+      "qtype_randomsamatch/*": [
+        "question/type/randomsamatch/amd/src/*"
+      ],
+      "qtype_random/*": [
+        "question/type/random/amd/src/*"
+      ],
+      "qtype_ordering/*": [
+        "question/type/ordering/amd/src/*"
+      ],
+      "qtype_numerical/*": [
+        "question/type/numerical/amd/src/*"
+      ],
+      "qtype_multichoice/*": [
+        "question/type/multichoice/amd/src/*"
+      ],
+      "qtype_multianswer/*": [
+        "question/type/multianswer/amd/src/*"
+      ],
+      "qtype_missingtype/*": [
+        "question/type/missingtype/amd/src/*"
+      ],
+      "qtype_match/*": [
+        "question/type/match/amd/src/*"
+      ],
+      "qtype_gapselect/*": [
+        "question/type/gapselect/amd/src/*"
+      ],
+      "qtype_essay/*": [
+        "question/type/essay/amd/src/*"
+      ],
+      "qtype_description/*": [
+        "question/type/description/amd/src/*"
+      ],
+      "qtype_ddwtos/*": [
+        "question/type/ddwtos/amd/src/*"
+      ],
+      "qtype_ddmarker/*": [
+        "question/type/ddmarker/amd/src/*"
+      ],
+      "qtype_ddimageortext/*": [
+        "question/type/ddimageortext/amd/src/*"
+      ],
+      "qtype_calculatedsimple/*": [
+        "question/type/calculatedsimple/amd/src/*"
+      ],
+      "qtype_calculatedmulti/*": [
+        "question/type/calculatedmulti/amd/src/*"
+      ],
+      "qtype_calculated/*": [
+        "question/type/calculated/amd/src/*"
+      ],
+      "mod_workshop/*": [
+        "mod/workshop/amd/src/*"
+      ],
+      "workshopform_rubric/*": [
+        "mod/workshop/form/rubric/amd/src/*"
+      ],
+      "workshopform_numerrors/*": [
+        "mod/workshop/form/numerrors/amd/src/*"
+      ],
+      "workshopform_comments/*": [
+        "mod/workshop/form/comments/amd/src/*"
+      ],
+      "workshopform_accumulative/*": [
+        "mod/workshop/form/accumulative/amd/src/*"
+      ],
+      "workshopallocation_scheduled/*": [
+        "mod/workshop/allocation/scheduled/amd/src/*"
+      ],
+      "workshopallocation_random/*": [
+        "mod/workshop/allocation/random/amd/src/*"
+      ],
+      "workshopallocation_manual/*": [
+        "mod/workshop/allocation/manual/amd/src/*"
+      ],
+      "workshopeval_best/*": [
+        "mod/workshop/eval/best/amd/src/*"
+      ],
+      "mod_wiki/*": [
+        "mod/wiki/amd/src/*"
+      ],
+      "mod_url/*": [
+        "mod/url/amd/src/*"
+      ],
+      "mod_tabgame/*": [
+        "mod/tabgame/amd/src/*"
+      ],
+      "mod_survey/*": [
+        "mod/survey/amd/src/*"
+      ],
+      "mod_scorm/*": [
+        "mod/scorm/amd/src/*"
+      ],
+      "scormreport_objectives/*": [
+        "mod/scorm/report/objectives/amd/src/*"
+      ],
+      "scormreport_interactions/*": [
+        "mod/scorm/report/interactions/amd/src/*"
+      ],
+      "scormreport_graphs/*": [
+        "mod/scorm/report/graphs/amd/src/*"
+      ],
+      "scormreport_basic/*": [
+        "mod/scorm/report/basic/amd/src/*"
+      ],
+      "mod_resource/*": [
+        "mod/resource/amd/src/*"
+      ],
+      "mod_quiz/*": [
+        "mod/quiz/amd/src/*"
+      ],
+      "quiz_statistics/*": [
+        "mod/quiz/report/statistics/amd/src/*"
+      ],
+      "quiz_responses/*": [
+        "mod/quiz/report/responses/amd/src/*"
+      ],
+      "quiz_overview/*": [
+        "mod/quiz/report/overview/amd/src/*"
+      ],
+      "quiz_grading/*": [
+        "mod/quiz/report/grading/amd/src/*"
+      ],
+      "quizaccess_timelimit/*": [
+        "mod/quiz/accessrule/timelimit/amd/src/*"
+      ],
+      "quizaccess_securewindow/*": [
+        "mod/quiz/accessrule/securewindow/amd/src/*"
+      ],
+      "quizaccess_seb/*": [
+        "mod/quiz/accessrule/seb/amd/src/*"
+      ],
+      "quizaccess_password/*": [
+        "mod/quiz/accessrule/password/amd/src/*"
+      ],
+      "quizaccess_openclosedate/*": [
+        "mod/quiz/accessrule/openclosedate/amd/src/*"
+      ],
+      "quizaccess_offlineattempts/*": [
+        "mod/quiz/accessrule/offlineattempts/amd/src/*"
+      ],
+      "quizaccess_numattempts/*": [
+        "mod/quiz/accessrule/numattempts/amd/src/*"
+      ],
+      "quizaccess_ipaddress/*": [
+        "mod/quiz/accessrule/ipaddress/amd/src/*"
+      ],
+      "quizaccess_delaybetweenattempts/*": [
+        "mod/quiz/accessrule/delaybetweenattempts/amd/src/*"
+      ],
+      "mod_publication/*": [
+        "mod/publication/amd/src/*"
+      ],
+      "mod_page/*": [
+        "mod/page/amd/src/*"
+      ],
+      "mod_lti/*": [
+        "mod/lti/amd/src/*"
+      ],
+      "ltiservice_toolsettings/*": [
+        "mod/lti/service/toolsettings/amd/src/*"
+      ],
+      "ltiservice_toolproxy/*": [
+        "mod/lti/service/toolproxy/amd/src/*"
+      ],
+      "ltiservice_profile/*": [
+        "mod/lti/service/profile/amd/src/*"
+      ],
+      "ltiservice_memberships/*": [
+        "mod/lti/service/memberships/amd/src/*"
+      ],
+      "ltiservice_gradebookservices/*": [
+        "mod/lti/service/gradebookservices/amd/src/*"
+      ],
+      "ltiservice_basicoutcomes/*": [
+        "mod/lti/service/basicoutcomes/amd/src/*"
+      ],
+      "mod_lesson/*": [
+        "mod/lesson/amd/src/*"
+      ],
+      "mod_label/*": [
+        "mod/label/amd/src/*"
+      ],
+      "mod_imscp/*": [
+        "mod/imscp/amd/src/*"
+      ],
+      "mod_h5pactivity/*": [
+        "mod/h5pactivity/amd/src/*"
+      ],
+      "mod_glossary/*": [
+        "mod/glossary/amd/src/*"
+      ],
+      "mod_forum/*": [
+        "mod/forum/amd/src/*"
+      ],
+      "forumreport_summary/*": [
+        "mod/forum/report/summary/amd/src/*"
+      ],
+      "mod_folder/*": [
+        "mod/folder/amd/src/*"
+      ],
+      "mod_feedback/*": [
+        "mod/feedback/amd/src/*"
+      ],
+      "mod_data/*": [
+        "mod/data/amd/src/*"
+      ],
+      "datafield_url/*": [
+        "mod/data/field/url/amd/src/*"
+      ],
+      "datafield_textarea/*": [
+        "mod/data/field/textarea/amd/src/*"
+      ],
+      "datafield_text/*": [
+        "mod/data/field/text/amd/src/*"
+      ],
+      "datafield_radiobutton/*": [
+        "mod/data/field/radiobutton/amd/src/*"
+      ],
+      "datafield_picture/*": [
+        "mod/data/field/picture/amd/src/*"
+      ],
+      "datafield_number/*": [
+        "mod/data/field/number/amd/src/*"
+      ],
+      "datafield_multimenu/*": [
+        "mod/data/field/multimenu/amd/src/*"
+      ],
+      "datafield_menu/*": [
+        "mod/data/field/menu/amd/src/*"
+      ],
+      "datafield_latlong/*": [
+        "mod/data/field/latlong/amd/src/*"
+      ],
+      "datafield_file/*": [
+        "mod/data/field/file/amd/src/*"
+      ],
+      "datafield_date/*": [
+        "mod/data/field/date/amd/src/*"
+      ],
+      "datafield_checkbox/*": [
+        "mod/data/field/checkbox/amd/src/*"
+      ],
+      "datapreset_resources/*": [
+        "mod/data/preset/resources/amd/src/*"
+      ],
+      "datapreset_proposals/*": [
+        "mod/data/preset/proposals/amd/src/*"
+      ],
+      "datapreset_journal/*": [
+        "mod/data/preset/journal/amd/src/*"
+      ],
+      "datapreset_imagegallery/*": [
+        "mod/data/preset/imagegallery/amd/src/*"
+      ],
+      "mod_choice/*": [
+        "mod/choice/amd/src/*"
+      ],
+      "mod_chat/*": [
+        "mod/chat/amd/src/*"
+      ],
+      "mod_book/*": [
+        "mod/book/amd/src/*"
+      ],
+      "booktool_print/*": [
+        "mod/book/tool/print/amd/src/*"
+      ],
+      "booktool_importhtml/*": [
+        "mod/book/tool/importhtml/amd/src/*"
+      ],
+      "booktool_exportimscp/*": [
+        "mod/book/tool/exportimscp/amd/src/*"
+      ],
+      "mod_bigbluebuttonbn/*": [
+        "mod/bigbluebuttonbn/amd/src/*"
+      ],
+      "mod_assign/*": [
+        "mod/assign/amd/src/*"
+      ],
+      "assignsubmission_onlinetext/*": [
+        "mod/assign/submission/onlinetext/amd/src/*"
+      ],
+      "assignsubmission_file/*": [
+        "mod/assign/submission/file/amd/src/*"
+      ],
+      "assignsubmission_comments/*": [
+        "mod/assign/submission/comments/amd/src/*"
+      ],
+      "assignfeedback_offline/*": [
+        "mod/assign/feedback/offline/amd/src/*"
+      ],
+      "assignfeedback_file/*": [
+        "mod/assign/feedback/file/amd/src/*"
+      ],
+      "assignfeedback_editpdf/*": [
+        "mod/assign/feedback/editpdf/amd/src/*"
+      ],
+      "assignfeedback_comments/*": [
+        "mod/assign/feedback/comments/amd/src/*"
+      ],
+      "mod_api - Copie/*": [
+        "mod/api - Copie/amd/src/*"
+      ],
+      "mod_api/*": [
+        "mod/api/amd/src/*"
+      ],
+      "auth_webservice/*": [
+        "auth/webservice/amd/src/*"
+      ],
+      "auth_shibboleth/*": [
+        "auth/shibboleth/amd/src/*"
+      ],
+      "auth_oauth2/*": [
+        "auth/oauth2/amd/src/*"
+      ],
+      "auth_none/*": [
+        "auth/none/amd/src/*"
+      ],
+      "auth_nologin/*": [
+        "auth/nologin/amd/src/*"
+      ],
+      "auth_mnet/*": [
+        "auth/mnet/amd/src/*"
+      ],
+      "auth_manual/*": [
+        "auth/manual/amd/src/*"
+      ],
+      "auth_lti/*": [
+        "auth/lti/amd/src/*"
+      ],
+      "auth_ldap/*": [
+        "auth/ldap/amd/src/*"
+      ],
+      "auth_email/*": [
+        "auth/email/amd/src/*"
+      ],
+      "auth_db/*": [
+        "auth/db/amd/src/*"
+      ],
+      "auth_cas/*": [
+        "auth/cas/amd/src/*"
+      ],
+      "calendartype_gregorian/*": [
+        "calendar/type/gregorian/amd/src/*"
+      ],
+      "communication_matrix/*": [
+        "communication/provider/matrix/amd/src/*"
+      ],
+      "communication_customlink/*": [
+        "communication/provider/customlink/amd/src/*"
+      ],
+      "customfield_textarea/*": [
+        "customfield/field/textarea/amd/src/*"
+      ],
+      "customfield_text/*": [
+        "customfield/field/text/amd/src/*"
+      ],
+      "customfield_select/*": [
+        "customfield/field/select/amd/src/*"
+      ],
+      "customfield_date/*": [
+        "customfield/field/date/amd/src/*"
+      ],
+      "customfield_checkbox/*": [
+        "customfield/field/checkbox/amd/src/*"
+      ],
+      "enrol_self/*": [
+        "enrol/self/amd/src/*"
+      ],
+      "enrol_paypal/*": [
+        "enrol/paypal/amd/src/*"
+      ],
+      "enrol_mnet/*": [
+        "enrol/mnet/amd/src/*"
+      ],
+      "enrol_meta/*": [
+        "enrol/meta/amd/src/*"
+      ],
+      "enrol_manual/*": [
+        "enrol/manual/amd/src/*"
+      ],
+      "enrol_lti/*": [
+        "enrol/lti/amd/src/*"
+      ],
+      "enrol_ldap/*": [
+        "enrol/ldap/amd/src/*"
+      ],
+      "enrol_imsenterprise/*": [
+        "enrol/imsenterprise/amd/src/*"
+      ],
+      "enrol_guest/*": [
+        "enrol/guest/amd/src/*"
+      ],
+      "enrol_flatfile/*": [
+        "enrol/flatfile/amd/src/*"
+      ],
+      "enrol_fee/*": [
+        "enrol/fee/amd/src/*"
+      ],
+      "enrol_database/*": [
+        "enrol/database/amd/src/*"
+      ],
+      "enrol_cohort/*": [
+        "enrol/cohort/amd/src/*"
+      ],
+      "enrol_category/*": [
+        "enrol/category/amd/src/*"
+      ],
+      "message_popup/*": [
+        "message/output/popup/amd/src/*"
+      ],
+      "message_email/*": [
+        "message/output/email/amd/src/*"
+      ],
+      "message_airnotifier/*": [
+        "message/output/airnotifier/amd/src/*"
+      ],
+      "block_timeline/*": [
+        "blocks/timeline/amd/src/*"
+      ],
+      "block_tag_youtube/*": [
+        "blocks/tag_youtube/amd/src/*"
+      ],
+      "block_tag_flickr/*": [
+        "blocks/tag_flickr/amd/src/*"
+      ],
+      "block_tags/*": [
+        "blocks/tags/amd/src/*"
+      ],
+      "block_starredcourses/*": [
+        "blocks/starredcourses/amd/src/*"
+      ],
+      "block_social_activities/*": [
+        "blocks/social_activities/amd/src/*"
+      ],
+      "block_site_main_menu/*": [
+        "blocks/site_main_menu/amd/src/*"
+      ],
+      "block_settings/*": [
+        "blocks/settings/amd/src/*"
+      ],
+      "block_selfcompletion/*": [
+        "blocks/selfcompletion/amd/src/*"
+      ],
+      "block_section_links/*": [
+        "blocks/section_links/amd/src/*"
+      ],
+      "block_search_forums/*": [
+        "blocks/search_forums/amd/src/*"
+      ],
+      "block_rss_client/*": [
+        "blocks/rss_client/amd/src/*"
+      ],
+      "block_recent_activity/*": [
+        "blocks/recent_activity/amd/src/*"
+      ],
+      "block_recentlyaccesseditems/*": [
+        "blocks/recentlyaccesseditems/amd/src/*"
+      ],
+      "block_recentlyaccessedcourses/*": [
+        "blocks/recentlyaccessedcourses/amd/src/*"
+      ],
+      "block_private_files/*": [
+        "blocks/private_files/amd/src/*"
+      ],
+      "block_online_users/*": [
+        "blocks/online_users/amd/src/*"
+      ],
+      "block_news_items/*": [
+        "blocks/news_items/amd/src/*"
+      ],
+      "block_navigation/*": [
+        "blocks/navigation/amd/src/*"
+      ],
+      "block_myprofile/*": [
+        "blocks/myprofile/amd/src/*"
+      ],
+      "block_myoverview/*": [
+        "blocks/myoverview/amd/src/*"
+      ],
+      "block_mnet_hosts/*": [
+        "blocks/mnet_hosts/amd/src/*"
+      ],
+      "block_mentees/*": [
+        "blocks/mentees/amd/src/*"
+      ],
+      "block_lp/*": [
+        "blocks/lp/amd/src/*"
+      ],
+      "block_login/*": [
+        "blocks/login/amd/src/*"
+      ],
+      "block_html/*": [
+        "blocks/html/amd/src/*"
+      ],
+      "block_helloworld/*": [
+        "blocks/helloworld/amd/src/*"
+      ],
+      "block_glossary_random/*": [
+        "blocks/glossary_random/amd/src/*"
+      ],
+      "block_globalsearch/*": [
+        "blocks/globalsearch/amd/src/*"
+      ],
+      "block_feedback/*": [
+        "blocks/feedback/amd/src/*"
+      ],
+      "block_course_summary/*": [
+        "blocks/course_summary/amd/src/*"
+      ],
+      "block_course_list/*": [
+        "blocks/course_list/amd/src/*"
+      ],
+      "block_completionstatus/*": [
+        "blocks/completionstatus/amd/src/*"
+      ],
+      "block_comments/*": [
+        "blocks/comments/amd/src/*"
+      ],
+      "block_calendar_upcoming/*": [
+        "blocks/calendar_upcoming/amd/src/*"
+      ],
+      "block_calendar_month/*": [
+        "blocks/calendar_month/amd/src/*"
+      ],
+      "block_blog_tags/*": [
+        "blocks/blog_tags/amd/src/*"
+      ],
+      "block_blog_recent/*": [
+        "blocks/blog_recent/amd/src/*"
+      ],
+      "block_blog_menu/*": [
+        "blocks/blog_menu/amd/src/*"
+      ],
+      "block_badges/*": [
+        "blocks/badges/amd/src/*"
+      ],
+      "block_admin_bookmarks/*": [
+        "blocks/admin_bookmarks/amd/src/*"
+      ],
+      "block_activity_results/*": [
+        "blocks/activity_results/amd/src/*"
+      ],
+      "block_activity_modules/*": [
+        "blocks/activity_modules/amd/src/*"
+      ],
+      "block_accessreview/*": [
+        "blocks/accessreview/amd/src/*"
+      ],
+      "media_youtube/*": [
+        "media/player/youtube/amd/src/*"
+      ],
+      "media_vimeo/*": [
+        "media/player/vimeo/amd/src/*"
+      ],
+      "media_videojs/*": [
+        "media/player/videojs/amd/src/*"
+      ],
+      "media_html5video/*": [
+        "media/player/html5video/amd/src/*"
+      ],
+      "media_html5audio/*": [
+        "media/player/html5audio/amd/src/*"
+      ],
+      "filter_urltolink/*": [
+        "filter/urltolink/amd/src/*"
+      ],
+      "filter_tidy/*": [
+        "filter/tidy/amd/src/*"
+      ],
+      "filter_tex/*": [
+        "filter/tex/amd/src/*"
+      ],
+      "filter_multilang/*": [
+        "filter/multilang/amd/src/*"
+      ],
+      "filter_mediaplugin/*": [
+        "filter/mediaplugin/amd/src/*"
+      ],
+      "filter_mathjaxloader/*": [
+        "filter/mathjaxloader/amd/src/*"
+      ],
+      "filter_glossary/*": [
+        "filter/glossary/amd/src/*"
+      ],
+      "filter_generico/*": [
+        "filter/generico/amd/src/*"
+      ],
+      "filter_emoticon/*": [
+        "filter/emoticon/amd/src/*"
+      ],
+      "filter_emailprotect/*": [
+        "filter/emailprotect/amd/src/*"
+      ],
+      "filter_displayh5p/*": [
+        "filter/displayh5p/amd/src/*"
+      ],
+      "filter_data/*": [
+        "filter/data/amd/src/*"
+      ],
+      "filter_codehighlighter/*": [
+        "filter/codehighlighter/amd/src/*"
+      ],
+      "filter_algebra/*": [
+        "filter/algebra/amd/src/*"
+      ],
+      "filter_activitynames/*": [
+        "filter/activitynames/amd/src/*"
+      ],
+      "editor_tiny/*": [
+        "lib/editor/tiny/amd/src/*"
+      ],
+      "tiny_recordrtc/*": [
+        "lib/editor/tiny/plugins/recordrtc/amd/src/*"
+      ],
+      "tiny_premium/*": [
+        "lib/editor/tiny/plugins/premium/amd/src/*"
+      ],
+      "tiny_noautolink/*": [
+        "lib/editor/tiny/plugins/noautolink/amd/src/*"
+      ],
+      "tiny_media/*": [
+        "lib/editor/tiny/plugins/media/amd/src/*"
+      ],
+      "tiny_link/*": [
+        "lib/editor/tiny/plugins/link/amd/src/*"
+      ],
+      "tiny_html/*": [
+        "lib/editor/tiny/plugins/html/amd/src/*"
+      ],
+      "tiny_h5p/*": [
+        "lib/editor/tiny/plugins/h5p/amd/src/*"
+      ],
+      "tiny_equation/*": [
+        "lib/editor/tiny/plugins/equation/amd/src/*"
+      ],
+      "tiny_autosave/*": [
+        "lib/editor/tiny/plugins/autosave/amd/src/*"
+      ],
+      "tiny_accessibilitychecker/*": [
+        "lib/editor/tiny/plugins/accessibilitychecker/amd/src/*"
+      ],
+      "editor_textarea/*": [
+        "lib/editor/textarea/amd/src/*"
+      ],
+      "editor_atto/*": [
+        "lib/editor/atto/amd/src/*"
+      ],
+      "atto_unorderedlist/*": [
+        "lib/editor/atto/plugins/unorderedlist/amd/src/*"
+      ],
+      "atto_undo/*": [
+        "lib/editor/atto/plugins/undo/amd/src/*"
+      ],
+      "atto_underline/*": [
+        "lib/editor/atto/plugins/underline/amd/src/*"
+      ],
+      "atto_title/*": [
+        "lib/editor/atto/plugins/title/amd/src/*"
+      ],
+      "atto_table/*": [
+        "lib/editor/atto/plugins/table/amd/src/*"
+      ],
+      "atto_superscript/*": [
+        "lib/editor/atto/plugins/superscript/amd/src/*"
+      ],
+      "atto_subscript/*": [
+        "lib/editor/atto/plugins/subscript/amd/src/*"
+      ],
+      "atto_strike/*": [
+        "lib/editor/atto/plugins/strike/amd/src/*"
+      ],
+      "atto_rtl/*": [
+        "lib/editor/atto/plugins/rtl/amd/src/*"
+      ],
+      "atto_recordrtc/*": [
+        "lib/editor/atto/plugins/recordrtc/amd/src/*"
+      ],
+      "atto_orderedlist/*": [
+        "lib/editor/atto/plugins/orderedlist/amd/src/*"
+      ],
+      "atto_noautolink/*": [
+        "lib/editor/atto/plugins/noautolink/amd/src/*"
+      ],
+      "atto_media/*": [
+        "lib/editor/atto/plugins/media/amd/src/*"
+      ],
+      "atto_managefiles/*": [
+        "lib/editor/atto/plugins/managefiles/amd/src/*"
+      ],
+      "atto_link/*": [
+        "lib/editor/atto/plugins/link/amd/src/*"
+      ],
+      "atto_italic/*": [
+        "lib/editor/atto/plugins/italic/amd/src/*"
+      ],
+      "atto_indent/*": [
+        "lib/editor/atto/plugins/indent/amd/src/*"
+      ],
+      "atto_image/*": [
+        "lib/editor/atto/plugins/image/amd/src/*"
+      ],
+      "atto_html/*": [
+        "lib/editor/atto/plugins/html/amd/src/*"
+      ],
+      "atto_h5p/*": [
+        "lib/editor/atto/plugins/h5p/amd/src/*"
+      ],
+      "atto_fontcolor/*": [
+        "lib/editor/atto/plugins/fontcolor/amd/src/*"
+      ],
+      "atto_equation/*": [
+        "lib/editor/atto/plugins/equation/amd/src/*"
+      ],
+      "atto_emoticon/*": [
+        "lib/editor/atto/plugins/emoticon/amd/src/*"
+      ],
+      "atto_emojipicker/*": [
+        "lib/editor/atto/plugins/emojipicker/amd/src/*"
+      ],
+      "atto_collapse/*": [
+        "lib/editor/atto/plugins/collapse/amd/src/*"
+      ],
+      "atto_clear/*": [
+        "lib/editor/atto/plugins/clear/amd/src/*"
+      ],
+      "atto_charmap/*": [
+        "lib/editor/atto/plugins/charmap/amd/src/*"
+      ],
+      "atto_bold/*": [
+        "lib/editor/atto/plugins/bold/amd/src/*"
+      ],
+      "atto_backcolor/*": [
+        "lib/editor/atto/plugins/backcolor/amd/src/*"
+      ],
+      "atto_align/*": [
+        "lib/editor/atto/plugins/align/amd/src/*"
+      ],
+      "atto_accessibilityhelper/*": [
+        "lib/editor/atto/plugins/accessibilityhelper/amd/src/*"
+      ],
+      "atto_accessibilitychecker/*": [
+        "lib/editor/atto/plugins/accessibilitychecker/amd/src/*"
+      ],
+      "format_weeks/*": [
+        "course/format/weeks/amd/src/*"
+      ],
+      "format_topics/*": [
+        "course/format/topics/amd/src/*"
+      ],
+      "format_social/*": [
+        "course/format/social/amd/src/*"
+      ],
+      "format_singleactivity/*": [
+        "course/format/singleactivity/amd/src/*"
+      ],
+      "dataformat_pdf/*": [
+        "dataformat/pdf/amd/src/*"
+      ],
+      "dataformat_ods/*": [
+        "dataformat/ods/amd/src/*"
+      ],
+      "dataformat_json/*": [
+        "dataformat/json/amd/src/*"
+      ],
+      "dataformat_html/*": [
+        "dataformat/html/amd/src/*"
+      ],
+      "dataformat_excel/*": [
+        "dataformat/excel/amd/src/*"
+      ],
+      "dataformat_csv/*": [
+        "dataformat/csv/amd/src/*"
+      ],
+      "profilefield_textarea/*": [
+        "user/profile/field/textarea/amd/src/*"
+      ],
+      "profilefield_text/*": [
+        "user/profile/field/text/amd/src/*"
+      ],
+      "profilefield_social/*": [
+        "user/profile/field/social/amd/src/*"
+      ],
+      "profilefield_menu/*": [
+        "user/profile/field/menu/amd/src/*"
+      ],
+      "profilefield_datetime/*": [
+        "user/profile/field/datetime/amd/src/*"
+      ],
+      "profilefield_checkbox/*": [
+        "user/profile/field/checkbox/amd/src/*"
+      ],
+      "report_usersessions/*": [
+        "report/usersessions/amd/src/*"
+      ],
+      "report_themeusage/*": [
+        "report/themeusage/amd/src/*"
+      ],
+      "report_status/*": [
+        "report/status/amd/src/*"
+      ],
+      "report_stats/*": [
+        "report/stats/amd/src/*"
+      ],
+      "report_security/*": [
+        "report/security/amd/src/*"
+      ],
+      "report_questioninstances/*": [
+        "report/questioninstances/amd/src/*"
+      ],
+      "report_progress/*": [
+        "report/progress/amd/src/*"
+      ],
+      "report_performance/*": [
+        "report/performance/amd/src/*"
+      ],
+      "report_participation/*": [
+        "report/participation/amd/src/*"
+      ],
+      "report_outline/*": [
+        "report/outline/amd/src/*"
+      ],
+      "report_loglive/*": [
+        "report/loglive/amd/src/*"
+      ],
+      "report_log/*": [
+        "report/log/amd/src/*"
+      ],
+      "report_insights/*": [
+        "report/insights/amd/src/*"
+      ],
+      "report_infectedfiles/*": [
+        "report/infectedfiles/amd/src/*"
+      ],
+      "report_eventlist/*": [
+        "report/eventlist/amd/src/*"
+      ],
+      "report_courseoverview/*": [
+        "report/courseoverview/amd/src/*"
+      ],
+      "report_configlog/*": [
+        "report/configlog/amd/src/*"
+      ],
+      "report_completion/*": [
+        "report/completion/amd/src/*"
+      ],
+      "report_competency/*": [
+        "report/competency/amd/src/*"
+      ],
+      "report_backups/*": [
+        "report/backups/amd/src/*"
+      ],
+      "gradeexport_xml/*": [
+        "grade/export/xml/amd/src/*"
+      ],
+      "gradeexport_xls/*": [
+        "grade/export/xls/amd/src/*"
+      ],
+      "gradeexport_txt/*": [
+        "grade/export/txt/amd/src/*"
+      ],
+      "gradeexport_ods/*": [
+        "grade/export/ods/amd/src/*"
+      ],
+      "gradeimport_xml/*": [
+        "grade/import/xml/amd/src/*"
+      ],
+      "gradeimport_direct/*": [
+        "grade/import/direct/amd/src/*"
+      ],
+      "gradeimport_csv/*": [
+        "grade/import/csv/amd/src/*"
+      ],
+      "gradereport_user/*": [
+        "grade/report/user/amd/src/*"
+      ],
+      "gradereport_summary/*": [
+        "grade/report/summary/amd/src/*"
+      ],
+      "gradereport_singleview/*": [
+        "grade/report/singleview/amd/src/*"
+      ],
+      "gradereport_overview/*": [
+        "grade/report/overview/amd/src/*"
+      ],
+      "gradereport_outcomes/*": [
+        "grade/report/outcomes/amd/src/*"
+      ],
+      "gradereport_history/*": [
+        "grade/report/history/amd/src/*"
+      ],
+      "gradereport_grader/*": [
+        "grade/report/grader/amd/src/*"
+      ],
+      "gradingform_rubric/*": [
+        "grade/grading/form/rubric/amd/src/*"
+      ],
+      "gradingform_guide/*": [
+        "grade/grading/form/guide/amd/src/*"
+      ],
+      "mlbackend_python/*": [
+        "lib/mlbackend/python/amd/src/*"
+      ],
+      "mlbackend_php/*": [
+        "lib/mlbackend/php/amd/src/*"
+      ],
+      "mnetservice_enrol/*": [
+        "mnet/service/enrol/amd/src/*"
+      ],
+      "webservice_soap/*": [
+        "webservice/soap/amd/src/*"
+      ],
+      "webservice_rest/*": [
+        "webservice/rest/amd/src/*"
+      ],
+      "repository_youtube/*": [
+        "repository/youtube/amd/src/*"
+      ],
+      "repository_wikimedia/*": [
+        "repository/wikimedia/amd/src/*"
+      ],
+      "repository_webdav/*": [
+        "repository/webdav/amd/src/*"
+      ],
+      "repository_user/*": [
+        "repository/user/amd/src/*"
+      ],
+      "repository_url/*": [
+        "repository/url/amd/src/*"
+      ],
+      "repository_upload/*": [
+        "repository/upload/amd/src/*"
+      ],
+      "repository_s3/*": [
+        "repository/s3/amd/src/*"
+      ],
+      "repository_recent/*": [
+        "repository/recent/amd/src/*"
+      ],
+      "repository_onedrive/*": [
+        "repository/onedrive/amd/src/*"
+      ],
+      "repository_nextcloud/*": [
+        "repository/nextcloud/amd/src/*"
+      ],
+      "repository_merlot/*": [
+        "repository/merlot/amd/src/*"
+      ],
+      "repository_local/*": [
+        "repository/local/amd/src/*"
+      ],
+      "repository_googledocs/*": [
+        "repository/googledocs/amd/src/*"
+      ],
+      "repository_flickr_public/*": [
+        "repository/flickr_public/amd/src/*"
+      ],
+      "repository_flickr/*": [
+        "repository/flickr/amd/src/*"
+      ],
+      "repository_filesystem/*": [
+        "repository/filesystem/amd/src/*"
+      ],
+      "repository_equella/*": [
+        "repository/equella/amd/src/*"
+      ],
+      "repository_dropbox/*": [
+        "repository/dropbox/amd/src/*"
+      ],
+      "repository_coursefiles/*": [
+        "repository/coursefiles/amd/src/*"
+      ],
+      "repository_contentbank/*": [
+        "repository/contentbank/amd/src/*"
+      ],
+      "repository_areafiles/*": [
+        "repository/areafiles/amd/src/*"
+      ],
+      "portfolio_mahara/*": [
+        "portfolio/mahara/amd/src/*"
+      ],
+      "portfolio_googledocs/*": [
+        "portfolio/googledocs/amd/src/*"
+      ],
+      "portfolio_flickr/*": [
+        "portfolio/flickr/amd/src/*"
+      ],
+      "portfolio_download/*": [
+        "portfolio/download/amd/src/*"
+      ],
+      "search_solr/*": [
+        "search/engine/solr/amd/src/*"
+      ],
+      "search_simpledb/*": [
+        "search/engine/simpledb/amd/src/*"
+      ],
+      "qbank_viewquestiontype/*": [
+        "question/bank/viewquestiontype/amd/src/*"
+      ],
+      "qbank_viewquestiontext/*": [
+        "question/bank/viewquestiontext/amd/src/*"
+      ],
+      "qbank_viewquestionname/*": [
+        "question/bank/viewquestionname/amd/src/*"
+      ],
+      "qbank_viewcreator/*": [
+        "question/bank/viewcreator/amd/src/*"
+      ],
+      "qbank_usage/*": [
+        "question/bank/usage/amd/src/*"
+      ],
+      "qbank_tagquestion/*": [
+        "question/bank/tagquestion/amd/src/*"
+      ],
+      "qbank_statistics/*": [
+        "question/bank/statistics/amd/src/*"
+      ],
+      "qbank_previewquestion/*": [
+        "question/bank/previewquestion/amd/src/*"
+      ],
+      "qbank_managecategories/*": [
+        "question/bank/managecategories/amd/src/*"
+      ],
+      "qbank_importquestions/*": [
+        "question/bank/importquestions/amd/src/*"
+      ],
+      "qbank_history/*": [
+        "question/bank/history/amd/src/*"
+      ],
+      "qbank_exporttoxml/*": [
+        "question/bank/exporttoxml/amd/src/*"
+      ],
+      "qbank_exportquestions/*": [
+        "question/bank/exportquestions/amd/src/*"
+      ],
+      "qbank_editquestion/*": [
+        "question/bank/editquestion/amd/src/*"
+      ],
+      "qbank_deletequestion/*": [
+        "question/bank/deletequestion/amd/src/*"
+      ],
+      "qbank_customfields/*": [
+        "question/bank/customfields/amd/src/*"
+      ],
+      "qbank_comment/*": [
+        "question/bank/comment/amd/src/*"
+      ],
+      "qbank_columnsortorder/*": [
+        "question/bank/columnsortorder/amd/src/*"
+      ],
+      "qbank_bulkmove/*": [
+        "question/bank/bulkmove/amd/src/*"
+      ],
+      "qbehaviour_missing/*": [
+        "question/behaviour/missing/amd/src/*"
+      ],
+      "qbehaviour_manualgraded/*": [
+        "question/behaviour/manualgraded/amd/src/*"
+      ],
+      "qbehaviour_interactivecountback/*": [
+        "question/behaviour/interactivecountback/amd/src/*"
+      ],
+      "qbehaviour_interactive/*": [
+        "question/behaviour/interactive/amd/src/*"
+      ],
+      "qbehaviour_informationitem/*": [
+        "question/behaviour/informationitem/amd/src/*"
+      ],
+      "qbehaviour_immediatefeedback/*": [
+        "question/behaviour/immediatefeedback/amd/src/*"
+      ],
+      "qbehaviour_immediatecbm/*": [
+        "question/behaviour/immediatecbm/amd/src/*"
+      ],
+      "qbehaviour_deferredfeedback/*": [
+        "question/behaviour/deferredfeedback/amd/src/*"
+      ],
+      "qbehaviour_deferredcbm/*": [
+        "question/behaviour/deferredcbm/amd/src/*"
+      ],
+      "qbehaviour_adaptivenopenalty/*": [
+        "question/behaviour/adaptivenopenalty/amd/src/*"
+      ],
+      "qbehaviour_adaptive/*": [
+        "question/behaviour/adaptive/amd/src/*"
+      ],
+      "qformat_xml/*": [
+        "question/format/xml/amd/src/*"
+      ],
+      "qformat_xhtml/*": [
+        "question/format/xhtml/amd/src/*"
+      ],
+      "qformat_multianswer/*": [
+        "question/format/multianswer/amd/src/*"
+      ],
+      "qformat_missingword/*": [
+        "question/format/missingword/amd/src/*"
+      ],
+      "qformat_gift/*": [
+        "question/format/gift/amd/src/*"
+      ],
+      "qformat_blackboard_six/*": [
+        "question/format/blackboard_six/amd/src/*"
+      ],
+      "qformat_aiken/*": [
+        "question/format/aiken/amd/src/*"
+      ],
+      "tool_xmldb/*": [
+        "admin/tool/xmldb/amd/src/*"
+      ],
+      "tool_usertours/*": [
+        "admin/tool/usertours/amd/src/*"
+      ],
+      "tool_uploaduser/*": [
+        "admin/tool/uploaduser/amd/src/*"
+      ],
+      "tool_uploadcourse/*": [
+        "admin/tool/uploadcourse/amd/src/*"
+      ],
+      "tool_unsuproles/*": [
+        "admin/tool/unsuproles/amd/src/*"
+      ],
+      "tool_templatelibrary/*": [
+        "admin/tool/templatelibrary/amd/src/*"
+      ],
+      "tool_task/*": [
+        "admin/tool/task/amd/src/*"
+      ],
+      "tool_spamcleaner/*": [
+        "admin/tool/spamcleaner/amd/src/*"
+      ],
+      "tool_replace/*": [
+        "admin/tool/replace/amd/src/*"
+      ],
+      "tool_recyclebin/*": [
+        "admin/tool/recyclebin/amd/src/*"
+      ],
+      "tool_profiling/*": [
+        "admin/tool/profiling/amd/src/*"
+      ],
+      "tool_policy/*": [
+        "admin/tool/policy/amd/src/*"
+      ],
+      "tool_pluginskel/*": [
+        "admin/tool/pluginskel/amd/src/*"
+      ],
+      "tool_phpunit/*": [
+        "admin/tool/phpunit/amd/src/*"
+      ],
+      "tool_oauth2/*": [
+        "admin/tool/oauth2/amd/src/*"
+      ],
+      "tool_multilangupgrade/*": [
+        "admin/tool/multilangupgrade/amd/src/*"
+      ],
+      "tool_moodlenet/*": [
+        "admin/tool/moodlenet/amd/src/*"
+      ],
+      "tool_monitor/*": [
+        "admin/tool/monitor/amd/src/*"
+      ],
+      "tool_mobile/*": [
+        "admin/tool/mobile/amd/src/*"
+      ],
+      "tool_mfa/*": [
+        "admin/tool/mfa/amd/src/*"
+      ],
+      "factor_webauthn/*": [
+        "admin/tool/mfa/factor/webauthn/amd/src/*"
+      ],
+      "factor_totp/*": [
+        "admin/tool/mfa/factor/totp/amd/src/*"
+      ],
+      "factor_token/*": [
+        "admin/tool/mfa/factor/token/amd/src/*"
+      ],
+      "factor_sms/*": [
+        "admin/tool/mfa/factor/sms/amd/src/*"
+      ],
+      "factor_role/*": [
+        "admin/tool/mfa/factor/role/amd/src/*"
+      ],
+      "factor_nosetup/*": [
+        "admin/tool/mfa/factor/nosetup/amd/src/*"
+      ],
+      "factor_iprange/*": [
+        "admin/tool/mfa/factor/iprange/amd/src/*"
+      ],
+      "factor_grace/*": [
+        "admin/tool/mfa/factor/grace/amd/src/*"
+      ],
+      "factor_email/*": [
+        "admin/tool/mfa/factor/email/amd/src/*"
+      ],
+      "factor_cohort/*": [
+        "admin/tool/mfa/factor/cohort/amd/src/*"
+      ],
+      "factor_capability/*": [
+        "admin/tool/mfa/factor/capability/amd/src/*"
+      ],
+      "factor_auth/*": [
+        "admin/tool/mfa/factor/auth/amd/src/*"
+      ],
+      "factor_admin/*": [
+        "admin/tool/mfa/factor/admin/amd/src/*"
+      ],
+      "tool_messageinbound/*": [
+        "admin/tool/messageinbound/amd/src/*"
+      ],
+      "tool_lpmigrate/*": [
+        "admin/tool/lpmigrate/amd/src/*"
+      ],
+      "tool_lpimportcsv/*": [
+        "admin/tool/lpimportcsv/amd/src/*"
+      ],
+      "tool_lp/*": [
+        "admin/tool/lp/amd/src/*"
+      ],
+      "tool_log/*": [
+        "admin/tool/log/amd/src/*"
+      ],
+      "logstore_standard/*": [
+        "admin/tool/log/store/standard/amd/src/*"
+      ],
+      "logstore_database/*": [
+        "admin/tool/log/store/database/amd/src/*"
+      ],
+      "tool_licensemanager/*": [
+        "admin/tool/licensemanager/amd/src/*"
+      ],
+      "tool_langimport/*": [
+        "admin/tool/langimport/amd/src/*"
+      ],
+      "tool_installaddon/*": [
+        "admin/tool/installaddon/amd/src/*"
+      ],
+      "tool_innodb/*": [
+        "admin/tool/innodb/amd/src/*"
+      ],
+      "tool_httpsreplace/*": [
+        "admin/tool/httpsreplace/amd/src/*"
+      ],
+      "tool_generator/*": [
+        "admin/tool/generator/amd/src/*"
+      ],
+      "tool_filetypes/*": [
+        "admin/tool/filetypes/amd/src/*"
+      ],
+      "tool_dbtransfer/*": [
+        "admin/tool/dbtransfer/amd/src/*"
+      ],
+      "tool_dataprivacy/*": [
+        "admin/tool/dataprivacy/amd/src/*"
+      ],
+      "tool_customlang/*": [
+        "admin/tool/customlang/amd/src/*"
+      ],
+      "tool_componentlibrary/*": [
+        "admin/tool/componentlibrary/amd/src/*"
+      ],
+      "tool_cohortroles/*": [
+        "admin/tool/cohortroles/amd/src/*"
+      ],
+      "tool_capability/*": [
+        "admin/tool/capability/amd/src/*"
+      ],
+      "tool_brickfield/*": [
+        "admin/tool/brickfield/amd/src/*"
+      ],
+      "tool_behat/*": [
+        "admin/tool/behat/amd/src/*"
+      ],
+      "tool_availabilityconditions/*": [
+        "admin/tool/availabilityconditions/amd/src/*"
+      ],
+      "tool_analytics/*": [
+        "admin/tool/analytics/amd/src/*"
+      ],
+      "tool_admin_presets/*": [
+        "admin/tool/admin_presets/amd/src/*"
+      ],
+      "cachestore_static/*": [
+        "cache/stores/static/amd/src/*"
+      ],
+      "cachestore_session/*": [
+        "cache/stores/session/amd/src/*"
+      ],
+      "cachestore_redis/*": [
+        "cache/stores/redis/amd/src/*"
+      ],
+      "cachestore_file/*": [
+        "cache/stores/file/amd/src/*"
+      ],
+      "cachestore_apcu/*": [
+        "cache/stores/apcu/amd/src/*"
+      ],
+      "cachelock_file/*": [
+        "cache/locks/file/amd/src/*"
+      ],
+      "fileconverter_unoconv/*": [
+        "files/converter/unoconv/amd/src/*"
+      ],
+      "fileconverter_googledrive/*": [
+        "files/converter/googledrive/amd/src/*"
+      ],
+      "contenttype_h5p/*": [
+        "contentbank/contenttype/h5p/amd/src/*"
+      ],
+      "theme_classic/*": [
+        "theme/classic/amd/src/*"
+      ],
+      "theme_boost/*": [
+        "theme/boost/amd/src/*"
+      ],
+      "local_greetings/*": [
+        "local/greetings/amd/src/*"
+      ],
+      "local_cohort_profile/*": [
+        "local/cohort_profile/amd/src/*"
+      ],
+      "local_codechecker/*": [
+        "local/codechecker/amd/src/*"
+      ],
+      "h5plib_v126/*": [
+        "h5p/h5plib/v126/amd/src/*"
+      ],
+      "paygw_paypal/*": [
+        "payment/gateway/paypal/amd/src/*"
+      ]
+    },
+    "target": "es2015",
+    "allowSyntheticDefaultImports": false
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "lib/amd/src/**/*",
+    "admin/amd/src/**/*",
+    "admin/presets/amd/src/**/*",
+    "analytics/amd/src/**/*",
+    "lib/antivirus/amd/src/**/*",
+    "auth/amd/src/**/*",
+    "availability/amd/src/**/*",
+    "backup/util/ui/amd/src/**/*",
+    "badges/amd/src/**/*",
+    "blocks/amd/src/**/*",
+    "blog/amd/src/**/*",
+    "cache/amd/src/**/*",
+    "calendar/amd/src/**/*",
+    "cohort/amd/src/**/*",
+    "comment/amd/src/**/*",
+    "communication/amd/src/**/*",
+    "competency/amd/src/**/*",
+    "completion/amd/src/**/*",
+    "contentbank/amd/src/**/*",
+    "course/amd/src/**/*",
+    "course/format/amd/src/**/*",
+    "customfield/amd/src/**/*",
+    "lib/editor/amd/src/**/*",
+    "enrol/amd/src/**/*",
+    "lib/external/amd/src/**/*",
+    "favourites/amd/src/**/*",
+    "files/converter/amd/src/**/*",
+    "files/amd/src/**/*",
+    "filter/amd/src/**/*",
+    "lib/form/amd/src/**/*",
+    "grade/amd/src/**/*",
+    "grade/grading/amd/src/**/*",
+    "group/amd/src/**/*",
+    "h5p/amd/src/**/*",
+    "media/amd/src/**/*",
+    "message/amd/src/**/*",
+    "mnet/amd/src/**/*",
+    "my/amd/src/**/*",
+    "notes/amd/src/**/*",
+    "payment/amd/src/**/*",
+    "plagiarism/amd/src/**/*",
+    "portfolio/amd/src/**/*",
+    "privacy/amd/src/**/*",
+    "question/amd/src/**/*",
+    "rating/amd/src/**/*",
+    "reportbuilder/amd/src/**/*",
+    "repository/amd/src/**/*",
+    "rss/amd/src/**/*",
+    "admin/roles/amd/src/**/*",
+    "search/amd/src/**/*",
+    "lib/table/amd/src/**/*",
+    "tag/amd/src/**/*",
+    "user/amd/src/**/*",
+    "lib/userkey/amd/src/**/*",
+    "webservice/amd/src/**/*",
+    "lib/xapi/amd/src/**/*",
+    "lib/antivirus/clamav/amd/src/**/*",
+    "availability/condition/profile/amd/src/**/*",
+    "availability/condition/grouping/amd/src/**/*",
+    "availability/condition/group/amd/src/**/*",
+    "availability/condition/grade/amd/src/**/*",
+    "availability/condition/date/amd/src/**/*",
+    "availability/condition/completion/amd/src/**/*",
+    "question/type/truefalse/amd/src/**/*",
+    "question/type/shortanswer/amd/src/**/*",
+    "question/type/randomsamatch/amd/src/**/*",
+    "question/type/random/amd/src/**/*",
+    "question/type/ordering/amd/src/**/*",
+    "question/type/numerical/amd/src/**/*",
+    "question/type/multichoice/amd/src/**/*",
+    "question/type/multianswer/amd/src/**/*",
+    "question/type/missingtype/amd/src/**/*",
+    "question/type/match/amd/src/**/*",
+    "question/type/gapselect/amd/src/**/*",
+    "question/type/essay/amd/src/**/*",
+    "question/type/description/amd/src/**/*",
+    "question/type/ddwtos/amd/src/**/*",
+    "question/type/ddmarker/amd/src/**/*",
+    "question/type/ddimageortext/amd/src/**/*",
+    "question/type/calculatedsimple/amd/src/**/*",
+    "question/type/calculatedmulti/amd/src/**/*",
+    "question/type/calculated/amd/src/**/*",
+    "mod/workshop/amd/src/**/*",
+    "mod/workshop/form/rubric/amd/src/**/*",
+    "mod/workshop/form/numerrors/amd/src/**/*",
+    "mod/workshop/form/comments/amd/src/**/*",
+    "mod/workshop/form/accumulative/amd/src/**/*",
+    "mod/workshop/allocation/scheduled/amd/src/**/*",
+    "mod/workshop/allocation/random/amd/src/**/*",
+    "mod/workshop/allocation/manual/amd/src/**/*",
+    "mod/workshop/eval/best/amd/src/**/*",
+    "mod/wiki/amd/src/**/*",
+    "mod/url/amd/src/**/*",
+    "mod/tabgame/amd/src/**/*",
+    "mod/survey/amd/src/**/*",
+    "mod/scorm/amd/src/**/*",
+    "mod/scorm/report/objectives/amd/src/**/*",
+    "mod/scorm/report/interactions/amd/src/**/*",
+    "mod/scorm/report/graphs/amd/src/**/*",
+    "mod/scorm/report/basic/amd/src/**/*",
+    "mod/resource/amd/src/**/*",
+    "mod/quiz/amd/src/**/*",
+    "mod/quiz/report/statistics/amd/src/**/*",
+    "mod/quiz/report/responses/amd/src/**/*",
+    "mod/quiz/report/overview/amd/src/**/*",
+    "mod/quiz/report/grading/amd/src/**/*",
+    "mod/quiz/accessrule/timelimit/amd/src/**/*",
+    "mod/quiz/accessrule/securewindow/amd/src/**/*",
+    "mod/quiz/accessrule/seb/amd/src/**/*",
+    "mod/quiz/accessrule/password/amd/src/**/*",
+    "mod/quiz/accessrule/openclosedate/amd/src/**/*",
+    "mod/quiz/accessrule/offlineattempts/amd/src/**/*",
+    "mod/quiz/accessrule/numattempts/amd/src/**/*",
+    "mod/quiz/accessrule/ipaddress/amd/src/**/*",
+    "mod/quiz/accessrule/delaybetweenattempts/amd/src/**/*",
+    "mod/publication/amd/src/**/*",
+    "mod/page/amd/src/**/*",
+    "mod/lti/amd/src/**/*",
+    "mod/lti/service/toolsettings/amd/src/**/*",
+    "mod/lti/service/toolproxy/amd/src/**/*",
+    "mod/lti/service/profile/amd/src/**/*",
+    "mod/lti/service/memberships/amd/src/**/*",
+    "mod/lti/service/gradebookservices/amd/src/**/*",
+    "mod/lti/service/basicoutcomes/amd/src/**/*",
+    "mod/lesson/amd/src/**/*",
+    "mod/label/amd/src/**/*",
+    "mod/imscp/amd/src/**/*",
+    "mod/h5pactivity/amd/src/**/*",
+    "mod/glossary/amd/src/**/*",
+    "mod/forum/amd/src/**/*",
+    "mod/forum/report/summary/amd/src/**/*",
+    "mod/folder/amd/src/**/*",
+    "mod/feedback/amd/src/**/*",
+    "mod/data/amd/src/**/*",
+    "mod/data/field/url/amd/src/**/*",
+    "mod/data/field/textarea/amd/src/**/*",
+    "mod/data/field/text/amd/src/**/*",
+    "mod/data/field/radiobutton/amd/src/**/*",
+    "mod/data/field/picture/amd/src/**/*",
+    "mod/data/field/number/amd/src/**/*",
+    "mod/data/field/multimenu/amd/src/**/*",
+    "mod/data/field/menu/amd/src/**/*",
+    "mod/data/field/latlong/amd/src/**/*",
+    "mod/data/field/file/amd/src/**/*",
+    "mod/data/field/date/amd/src/**/*",
+    "mod/data/field/checkbox/amd/src/**/*",
+    "mod/data/preset/resources/amd/src/**/*",
+    "mod/data/preset/proposals/amd/src/**/*",
+    "mod/data/preset/journal/amd/src/**/*",
+    "mod/data/preset/imagegallery/amd/src/**/*",
+    "mod/choice/amd/src/**/*",
+    "mod/chat/amd/src/**/*",
+    "mod/book/amd/src/**/*",
+    "mod/book/tool/print/amd/src/**/*",
+    "mod/book/tool/importhtml/amd/src/**/*",
+    "mod/book/tool/exportimscp/amd/src/**/*",
+    "mod/bigbluebuttonbn/amd/src/**/*",
+    "mod/assign/amd/src/**/*",
+    "mod/assign/submission/onlinetext/amd/src/**/*",
+    "mod/assign/submission/file/amd/src/**/*",
+    "mod/assign/submission/comments/amd/src/**/*",
+    "mod/assign/feedback/offline/amd/src/**/*",
+    "mod/assign/feedback/file/amd/src/**/*",
+    "mod/assign/feedback/editpdf/amd/src/**/*",
+    "mod/assign/feedback/comments/amd/src/**/*",
+    "mod/api - Copie/amd/src/**/*",
+    "mod/api/amd/src/**/*",
+    "auth/webservice/amd/src/**/*",
+    "auth/shibboleth/amd/src/**/*",
+    "auth/oauth2/amd/src/**/*",
+    "auth/none/amd/src/**/*",
+    "auth/nologin/amd/src/**/*",
+    "auth/mnet/amd/src/**/*",
+    "auth/manual/amd/src/**/*",
+    "auth/lti/amd/src/**/*",
+    "auth/ldap/amd/src/**/*",
+    "auth/email/amd/src/**/*",
+    "auth/db/amd/src/**/*",
+    "auth/cas/amd/src/**/*",
+    "calendar/type/gregorian/amd/src/**/*",
+    "communication/provider/matrix/amd/src/**/*",
+    "communication/provider/customlink/amd/src/**/*",
+    "customfield/field/textarea/amd/src/**/*",
+    "customfield/field/text/amd/src/**/*",
+    "customfield/field/select/amd/src/**/*",
+    "customfield/field/date/amd/src/**/*",
+    "customfield/field/checkbox/amd/src/**/*",
+    "enrol/self/amd/src/**/*",
+    "enrol/paypal/amd/src/**/*",
+    "enrol/mnet/amd/src/**/*",
+    "enrol/meta/amd/src/**/*",
+    "enrol/manual/amd/src/**/*",
+    "enrol/lti/amd/src/**/*",
+    "enrol/ldap/amd/src/**/*",
+    "enrol/imsenterprise/amd/src/**/*",
+    "enrol/guest/amd/src/**/*",
+    "enrol/flatfile/amd/src/**/*",
+    "enrol/fee/amd/src/**/*",
+    "enrol/database/amd/src/**/*",
+    "enrol/cohort/amd/src/**/*",
+    "enrol/category/amd/src/**/*",
+    "message/output/popup/amd/src/**/*",
+    "message/output/email/amd/src/**/*",
+    "message/output/airnotifier/amd/src/**/*",
+    "blocks/timeline/amd/src/**/*",
+    "blocks/tag_youtube/amd/src/**/*",
+    "blocks/tag_flickr/amd/src/**/*",
+    "blocks/tags/amd/src/**/*",
+    "blocks/starredcourses/amd/src/**/*",
+    "blocks/social_activities/amd/src/**/*",
+    "blocks/site_main_menu/amd/src/**/*",
+    "blocks/settings/amd/src/**/*",
+    "blocks/selfcompletion/amd/src/**/*",
+    "blocks/section_links/amd/src/**/*",
+    "blocks/search_forums/amd/src/**/*",
+    "blocks/rss_client/amd/src/**/*",
+    "blocks/recent_activity/amd/src/**/*",
+    "blocks/recentlyaccesseditems/amd/src/**/*",
+    "blocks/recentlyaccessedcourses/amd/src/**/*",
+    "blocks/private_files/amd/src/**/*",
+    "blocks/online_users/amd/src/**/*",
+    "blocks/news_items/amd/src/**/*",
+    "blocks/navigation/amd/src/**/*",
+    "blocks/myprofile/amd/src/**/*",
+    "blocks/myoverview/amd/src/**/*",
+    "blocks/mnet_hosts/amd/src/**/*",
+    "blocks/mentees/amd/src/**/*",
+    "blocks/lp/amd/src/**/*",
+    "blocks/login/amd/src/**/*",
+    "blocks/html/amd/src/**/*",
+    "blocks/helloworld/amd/src/**/*",
+    "blocks/glossary_random/amd/src/**/*",
+    "blocks/globalsearch/amd/src/**/*",
+    "blocks/feedback/amd/src/**/*",
+    "blocks/course_summary/amd/src/**/*",
+    "blocks/course_list/amd/src/**/*",
+    "blocks/completionstatus/amd/src/**/*",
+    "blocks/comments/amd/src/**/*",
+    "blocks/calendar_upcoming/amd/src/**/*",
+    "blocks/calendar_month/amd/src/**/*",
+    "blocks/blog_tags/amd/src/**/*",
+    "blocks/blog_recent/amd/src/**/*",
+    "blocks/blog_menu/amd/src/**/*",
+    "blocks/badges/amd/src/**/*",
+    "blocks/admin_bookmarks/amd/src/**/*",
+    "blocks/activity_results/amd/src/**/*",
+    "blocks/activity_modules/amd/src/**/*",
+    "blocks/accessreview/amd/src/**/*",
+    "media/player/youtube/amd/src/**/*",
+    "media/player/vimeo/amd/src/**/*",
+    "media/player/videojs/amd/src/**/*",
+    "media/player/html5video/amd/src/**/*",
+    "media/player/html5audio/amd/src/**/*",
+    "filter/urltolink/amd/src/**/*",
+    "filter/tidy/amd/src/**/*",
+    "filter/tex/amd/src/**/*",
+    "filter/multilang/amd/src/**/*",
+    "filter/mediaplugin/amd/src/**/*",
+    "filter/mathjaxloader/amd/src/**/*",
+    "filter/glossary/amd/src/**/*",
+    "filter/generico/amd/src/**/*",
+    "filter/emoticon/amd/src/**/*",
+    "filter/emailprotect/amd/src/**/*",
+    "filter/displayh5p/amd/src/**/*",
+    "filter/data/amd/src/**/*",
+    "filter/codehighlighter/amd/src/**/*",
+    "filter/algebra/amd/src/**/*",
+    "filter/activitynames/amd/src/**/*",
+    "lib/editor/tiny/amd/src/**/*",
+    "lib/editor/tiny/plugins/recordrtc/amd/src/**/*",
+    "lib/editor/tiny/plugins/premium/amd/src/**/*",
+    "lib/editor/tiny/plugins/noautolink/amd/src/**/*",
+    "lib/editor/tiny/plugins/media/amd/src/**/*",
+    "lib/editor/tiny/plugins/link/amd/src/**/*",
+    "lib/editor/tiny/plugins/html/amd/src/**/*",
+    "lib/editor/tiny/plugins/h5p/amd/src/**/*",
+    "lib/editor/tiny/plugins/equation/amd/src/**/*",
+    "lib/editor/tiny/plugins/autosave/amd/src/**/*",
+    "lib/editor/tiny/plugins/accessibilitychecker/amd/src/**/*",
+    "lib/editor/textarea/amd/src/**/*",
+    "lib/editor/atto/amd/src/**/*",
+    "lib/editor/atto/plugins/unorderedlist/amd/src/**/*",
+    "lib/editor/atto/plugins/undo/amd/src/**/*",
+    "lib/editor/atto/plugins/underline/amd/src/**/*",
+    "lib/editor/atto/plugins/title/amd/src/**/*",
+    "lib/editor/atto/plugins/table/amd/src/**/*",
+    "lib/editor/atto/plugins/superscript/amd/src/**/*",
+    "lib/editor/atto/plugins/subscript/amd/src/**/*",
+    "lib/editor/atto/plugins/strike/amd/src/**/*",
+    "lib/editor/atto/plugins/rtl/amd/src/**/*",
+    "lib/editor/atto/plugins/recordrtc/amd/src/**/*",
+    "lib/editor/atto/plugins/orderedlist/amd/src/**/*",
+    "lib/editor/atto/plugins/noautolink/amd/src/**/*",
+    "lib/editor/atto/plugins/media/amd/src/**/*",
+    "lib/editor/atto/plugins/managefiles/amd/src/**/*",
+    "lib/editor/atto/plugins/link/amd/src/**/*",
+    "lib/editor/atto/plugins/italic/amd/src/**/*",
+    "lib/editor/atto/plugins/indent/amd/src/**/*",
+    "lib/editor/atto/plugins/image/amd/src/**/*",
+    "lib/editor/atto/plugins/html/amd/src/**/*",
+    "lib/editor/atto/plugins/h5p/amd/src/**/*",
+    "lib/editor/atto/plugins/fontcolor/amd/src/**/*",
+    "lib/editor/atto/plugins/equation/amd/src/**/*",
+    "lib/editor/atto/plugins/emoticon/amd/src/**/*",
+    "lib/editor/atto/plugins/emojipicker/amd/src/**/*",
+    "lib/editor/atto/plugins/collapse/amd/src/**/*",
+    "lib/editor/atto/plugins/clear/amd/src/**/*",
+    "lib/editor/atto/plugins/charmap/amd/src/**/*",
+    "lib/editor/atto/plugins/bold/amd/src/**/*",
+    "lib/editor/atto/plugins/backcolor/amd/src/**/*",
+    "lib/editor/atto/plugins/align/amd/src/**/*",
+    "lib/editor/atto/plugins/accessibilityhelper/amd/src/**/*",
+    "lib/editor/atto/plugins/accessibilitychecker/amd/src/**/*",
+    "course/format/weeks/amd/src/**/*",
+    "course/format/topics/amd/src/**/*",
+    "course/format/social/amd/src/**/*",
+    "course/format/singleactivity/amd/src/**/*",
+    "dataformat/pdf/amd/src/**/*",
+    "dataformat/ods/amd/src/**/*",
+    "dataformat/json/amd/src/**/*",
+    "dataformat/html/amd/src/**/*",
+    "dataformat/excel/amd/src/**/*",
+    "dataformat/csv/amd/src/**/*",
+    "user/profile/field/textarea/amd/src/**/*",
+    "user/profile/field/text/amd/src/**/*",
+    "user/profile/field/social/amd/src/**/*",
+    "user/profile/field/menu/amd/src/**/*",
+    "user/profile/field/datetime/amd/src/**/*",
+    "user/profile/field/checkbox/amd/src/**/*",
+    "report/usersessions/amd/src/**/*",
+    "report/themeusage/amd/src/**/*",
+    "report/status/amd/src/**/*",
+    "report/stats/amd/src/**/*",
+    "report/security/amd/src/**/*",
+    "report/questioninstances/amd/src/**/*",
+    "report/progress/amd/src/**/*",
+    "report/performance/amd/src/**/*",
+    "report/participation/amd/src/**/*",
+    "report/outline/amd/src/**/*",
+    "report/loglive/amd/src/**/*",
+    "report/log/amd/src/**/*",
+    "report/insights/amd/src/**/*",
+    "report/infectedfiles/amd/src/**/*",
+    "report/eventlist/amd/src/**/*",
+    "report/courseoverview/amd/src/**/*",
+    "report/configlog/amd/src/**/*",
+    "report/completion/amd/src/**/*",
+    "report/competency/amd/src/**/*",
+    "report/backups/amd/src/**/*",
+    "grade/export/xml/amd/src/**/*",
+    "grade/export/xls/amd/src/**/*",
+    "grade/export/txt/amd/src/**/*",
+    "grade/export/ods/amd/src/**/*",
+    "grade/import/xml/amd/src/**/*",
+    "grade/import/direct/amd/src/**/*",
+    "grade/import/csv/amd/src/**/*",
+    "grade/report/user/amd/src/**/*",
+    "grade/report/summary/amd/src/**/*",
+    "grade/report/singleview/amd/src/**/*",
+    "grade/report/overview/amd/src/**/*",
+    "grade/report/outcomes/amd/src/**/*",
+    "grade/report/history/amd/src/**/*",
+    "grade/report/grader/amd/src/**/*",
+    "grade/grading/form/rubric/amd/src/**/*",
+    "grade/grading/form/guide/amd/src/**/*",
+    "lib/mlbackend/python/amd/src/**/*",
+    "lib/mlbackend/php/amd/src/**/*",
+    "mnet/service/enrol/amd/src/**/*",
+    "webservice/soap/amd/src/**/*",
+    "webservice/rest/amd/src/**/*",
+    "repository/youtube/amd/src/**/*",
+    "repository/wikimedia/amd/src/**/*",
+    "repository/webdav/amd/src/**/*",
+    "repository/user/amd/src/**/*",
+    "repository/url/amd/src/**/*",
+    "repository/upload/amd/src/**/*",
+    "repository/s3/amd/src/**/*",
+    "repository/recent/amd/src/**/*",
+    "repository/onedrive/amd/src/**/*",
+    "repository/nextcloud/amd/src/**/*",
+    "repository/merlot/amd/src/**/*",
+    "repository/local/amd/src/**/*",
+    "repository/googledocs/amd/src/**/*",
+    "repository/flickr_public/amd/src/**/*",
+    "repository/flickr/amd/src/**/*",
+    "repository/filesystem/amd/src/**/*",
+    "repository/equella/amd/src/**/*",
+    "repository/dropbox/amd/src/**/*",
+    "repository/coursefiles/amd/src/**/*",
+    "repository/contentbank/amd/src/**/*",
+    "repository/areafiles/amd/src/**/*",
+    "portfolio/mahara/amd/src/**/*",
+    "portfolio/googledocs/amd/src/**/*",
+    "portfolio/flickr/amd/src/**/*",
+    "portfolio/download/amd/src/**/*",
+    "search/engine/solr/amd/src/**/*",
+    "search/engine/simpledb/amd/src/**/*",
+    "question/bank/viewquestiontype/amd/src/**/*",
+    "question/bank/viewquestiontext/amd/src/**/*",
+    "question/bank/viewquestionname/amd/src/**/*",
+    "question/bank/viewcreator/amd/src/**/*",
+    "question/bank/usage/amd/src/**/*",
+    "question/bank/tagquestion/amd/src/**/*",
+    "question/bank/statistics/amd/src/**/*",
+    "question/bank/previewquestion/amd/src/**/*",
+    "question/bank/managecategories/amd/src/**/*",
+    "question/bank/importquestions/amd/src/**/*",
+    "question/bank/history/amd/src/**/*",
+    "question/bank/exporttoxml/amd/src/**/*",
+    "question/bank/exportquestions/amd/src/**/*",
+    "question/bank/editquestion/amd/src/**/*",
+    "question/bank/deletequestion/amd/src/**/*",
+    "question/bank/customfields/amd/src/**/*",
+    "question/bank/comment/amd/src/**/*",
+    "question/bank/columnsortorder/amd/src/**/*",
+    "question/bank/bulkmove/amd/src/**/*",
+    "question/behaviour/missing/amd/src/**/*",
+    "question/behaviour/manualgraded/amd/src/**/*",
+    "question/behaviour/interactivecountback/amd/src/**/*",
+    "question/behaviour/interactive/amd/src/**/*",
+    "question/behaviour/informationitem/amd/src/**/*",
+    "question/behaviour/immediatefeedback/amd/src/**/*",
+    "question/behaviour/immediatecbm/amd/src/**/*",
+    "question/behaviour/deferredfeedback/amd/src/**/*",
+    "question/behaviour/deferredcbm/amd/src/**/*",
+    "question/behaviour/adaptivenopenalty/amd/src/**/*",
+    "question/behaviour/adaptive/amd/src/**/*",
+    "question/format/xml/amd/src/**/*",
+    "question/format/xhtml/amd/src/**/*",
+    "question/format/multianswer/amd/src/**/*",
+    "question/format/missingword/amd/src/**/*",
+    "question/format/gift/amd/src/**/*",
+    "question/format/blackboard_six/amd/src/**/*",
+    "question/format/aiken/amd/src/**/*",
+    "admin/tool/xmldb/amd/src/**/*",
+    "admin/tool/usertours/amd/src/**/*",
+    "admin/tool/uploaduser/amd/src/**/*",
+    "admin/tool/uploadcourse/amd/src/**/*",
+    "admin/tool/unsuproles/amd/src/**/*",
+    "admin/tool/templatelibrary/amd/src/**/*",
+    "admin/tool/task/amd/src/**/*",
+    "admin/tool/spamcleaner/amd/src/**/*",
+    "admin/tool/replace/amd/src/**/*",
+    "admin/tool/recyclebin/amd/src/**/*",
+    "admin/tool/profiling/amd/src/**/*",
+    "admin/tool/policy/amd/src/**/*",
+    "admin/tool/pluginskel/amd/src/**/*",
+    "admin/tool/phpunit/amd/src/**/*",
+    "admin/tool/oauth2/amd/src/**/*",
+    "admin/tool/multilangupgrade/amd/src/**/*",
+    "admin/tool/moodlenet/amd/src/**/*",
+    "admin/tool/monitor/amd/src/**/*",
+    "admin/tool/mobile/amd/src/**/*",
+    "admin/tool/mfa/amd/src/**/*",
+    "admin/tool/mfa/factor/webauthn/amd/src/**/*",
+    "admin/tool/mfa/factor/totp/amd/src/**/*",
+    "admin/tool/mfa/factor/token/amd/src/**/*",
+    "admin/tool/mfa/factor/sms/amd/src/**/*",
+    "admin/tool/mfa/factor/role/amd/src/**/*",
+    "admin/tool/mfa/factor/nosetup/amd/src/**/*",
+    "admin/tool/mfa/factor/iprange/amd/src/**/*",
+    "admin/tool/mfa/factor/grace/amd/src/**/*",
+    "admin/tool/mfa/factor/email/amd/src/**/*",
+    "admin/tool/mfa/factor/cohort/amd/src/**/*",
+    "admin/tool/mfa/factor/capability/amd/src/**/*",
+    "admin/tool/mfa/factor/auth/amd/src/**/*",
+    "admin/tool/mfa/factor/admin/amd/src/**/*",
+    "admin/tool/messageinbound/amd/src/**/*",
+    "admin/tool/lpmigrate/amd/src/**/*",
+    "admin/tool/lpimportcsv/amd/src/**/*",
+    "admin/tool/lp/amd/src/**/*",
+    "admin/tool/log/amd/src/**/*",
+    "admin/tool/log/store/standard/amd/src/**/*",
+    "admin/tool/log/store/database/amd/src/**/*",
+    "admin/tool/licensemanager/amd/src/**/*",
+    "admin/tool/langimport/amd/src/**/*",
+    "admin/tool/installaddon/amd/src/**/*",
+    "admin/tool/innodb/amd/src/**/*",
+    "admin/tool/httpsreplace/amd/src/**/*",
+    "admin/tool/generator/amd/src/**/*",
+    "admin/tool/filetypes/amd/src/**/*",
+    "admin/tool/dbtransfer/amd/src/**/*",
+    "admin/tool/dataprivacy/amd/src/**/*",
+    "admin/tool/customlang/amd/src/**/*",
+    "admin/tool/componentlibrary/amd/src/**/*",
+    "admin/tool/cohortroles/amd/src/**/*",
+    "admin/tool/capability/amd/src/**/*",
+    "admin/tool/brickfield/amd/src/**/*",
+    "admin/tool/behat/amd/src/**/*",
+    "admin/tool/availabilityconditions/amd/src/**/*",
+    "admin/tool/analytics/amd/src/**/*",
+    "admin/tool/admin_presets/amd/src/**/*",
+    "cache/stores/static/amd/src/**/*",
+    "cache/stores/session/amd/src/**/*",
+    "cache/stores/redis/amd/src/**/*",
+    "cache/stores/file/amd/src/**/*",
+    "cache/stores/apcu/amd/src/**/*",
+    "cache/locks/file/amd/src/**/*",
+    "files/converter/unoconv/amd/src/**/*",
+    "files/converter/googledrive/amd/src/**/*",
+    "contentbank/contenttype/h5p/amd/src/**/*",
+    "theme/classic/amd/src/**/*",
+    "theme/boost/amd/src/**/*",
+    "local/greetings/amd/src/**/*",
+    "local/cohort_profile/amd/src/**/*",
+    "local/codechecker/amd/src/**/*",
+    "h5p/h5plib/v126/amd/src/**/*",
+    "payment/gateway/paypal/amd/src/**/*"
+  ]
+}
